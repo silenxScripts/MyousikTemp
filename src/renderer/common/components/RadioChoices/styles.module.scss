@@ -1,0 +1,33 @@
+.wrapper {
+  margin: 10px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0px 10px;
+
+  span {
+    background-color: var(--accent);
+    height: 100%;
+    flex: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    &:first-child {
+      border-radius: 10px 0px 0px 10px;
+    }
+    &:last-child {
+      border-radius: 0px 10px 10px 0px;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+      color: white;
+      font-weight: 300;
+    }
+  }
+}

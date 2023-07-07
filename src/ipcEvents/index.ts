@@ -1,0 +1,15 @@
+export const TYPE_SELECTOR_WINDOW_CLOSE = "type-selector-window-close";
+export const CURRENT_WINDOW_NAME = "current-window-name";
+export const GET_HOME_DIR = "get-home-directory";
+export const ADD_FOLDER_TO_LITE = "add-folder-to-lite";
+export const GET_LITE_FOLDERS = "get-lite-folders";
+export const GET_AUDIO_FILES = "get-audio-files";
+export const DELETE_FILE = "delete-file";
+export const LOAD_LITE_AUDIO = "load-lite-audio";
+export const PLAY_LITE_AUDIO = "play-lite-audio";
+export const PAUSE_LITE_AUDIO = "pause-lite-audio";
+export const LITE_AUDIO_STATUS = "lite-audio-status";
+export const REMOVE_FOLDER_FROM_LITE = "remove-folder-from-lite";
+export const CHECK_VALID_PATH = "check-valid-path";
+export const GET_LITE_PLAYLIST = "get-lite-playlist";
+export const GET_ALL_LITE_AUDIO_FILES = "get-all-lite-audio-files";

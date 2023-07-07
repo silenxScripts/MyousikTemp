@@ -1,0 +1,42 @@
+.wrapper {
+  height: 40px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 95%;
+
+  .header {
+    padding: 10px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: var(--layer-zero);
+    border-radius: 10px;
+    align-items: center;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      cursor: pointer;
+
+      &:last-child {
+        margin-left: auto;
+      }
+    }
+
+    h1 {
+      font-weight: 300;
+      font-size: 0.8rem;
+      color: var(--font-pr);
+    }
+  }
+
+  ul {
+    padding: 10px;
+    li {
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: var(--font-sec);
+    }
+  }
+}

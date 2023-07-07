@@ -1,0 +1,40 @@
+.wrapper {
+  width: 49%;
+  height: 10rem;
+  overflow: hidden;
+  display: flex;
+  background-color: var(--layer-one);
+  padding: 10px;
+  cursor: pointer;
+
+  img {
+    width: 50%;
+    position: relative;
+  }
+
+  .info {
+    padding: 10px;
+    h1 {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+
+    ul {
+      margin-top: 5px;
+      li {
+        list-style: none;
+        font-size: 0.7rem;
+        color: var(--font-sec);
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+  &:first-child {
+    border-radius: 10px 0px 0px 10px;
+  }
+  &:last-child {
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0.5%;
+  }
+}

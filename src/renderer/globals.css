@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: "Inter", sans-serif;
+  --heading: "Rubik", sans-serif;
+
+  --layer-zero: #181818;
+  --layer-one: #212121;
+  --layer-two: #3d3d3d;
+
+  --font-pr: #ffffff;
+  --font-sec: #aaaaaa;
+
+  --accent: #0663e5;
+  --accent-dark: #0453c0;
+  --accent-opp: #f44336;
+}
+
+body {
+  font-family: var(--text);
+  font-weight: 300;
+  background-color: var(--layer-zero);
+}
+
+[data-theme="dark"] {
+  --layer-zero: #181818;
+  --layer-one: #212121;
+  --layer-two: #3d3d3d;
+
+  --font-pr: #ffffff;
+  --font-sec: #aaaaaa;
+}
+
+[data-theme="light"] {
+  --layer-zero: #fafafa;
+  --layer-one: #e4e5f1;
+  --layer-two: #d2d3db;
+
+  --font-pr: #181818;
+  --font-sec: #212121;
+}
